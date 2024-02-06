@@ -14,7 +14,7 @@
     padding: 16px;
     margin: 10px;
     border-radius: 8px;
-    background-color:#027a46ce;
+    background-color:#00703b;
 }
 
 .header__navigation .navigation {
@@ -51,7 +51,7 @@
     width:364px;
     height: 48px;
     margin-left: 8px;
-    background-color: #F0568F;
+    background-color: #EC268F;
     border-radius: 500px;
     border: 1px solid transparent;
 }
@@ -66,7 +66,7 @@
     background: transparent;
     border: none;
     padding: 0px 100px 0 12px;
-    color: #fff;
+    color: #d5d8de;
     text-overflow:ellipsis;
     overflow: hidden;
     white-space: nowrap;
@@ -85,11 +85,17 @@
 .header__login .login{
     width: 100px;
     height: 48px;
-    color:#fff;
+    color:#2f7141;
     font-size: 16px;
     font-weight: 700;
     border-radius: 40px;
     border: none;
-    background-color: #1b9a63;
+    background-color: #d5d8de;
+    
+}
+
+.login:hover{
+    background-color: #eb459e;
+    cursor: pointer;
 }
 
